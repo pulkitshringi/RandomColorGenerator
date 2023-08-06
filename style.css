@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+}
+.colordiv{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:20px auto;
+    height:12.5rem;
+    width:31.25rem;
+    border:solid black;
+    text-align: center;
+}
+
+a{
+    position:relative;
+    top:1rem;
+    text-decoration:none;
+    color:rgba(0,0,0,0.5);
+    transition:0.2s;
+}
+a:hover{
+    color:rgba(0,0,0,1);
+}
+
+.footer{
+    position: relative;
+    top:20rem;
+}
+.main{
+    position:relative;
+    top:5rem;
+}
